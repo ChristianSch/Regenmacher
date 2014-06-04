@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659F1A13193F9A8500874588 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1A12193F9A8500874588 /* main.swift */; };
+		659F1A15193F9A8500874588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1A14193F9A8500874588 /* AppDelegate.swift */; };
+		659F1A17193F9A8500874588 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659F1A16193F9A8500874588 /* Images.xcassets */; };
+		659F1A1A193F9A8600874588 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659F1A18193F9A8600874588 /* MainMenu.xib */; };
+		659F1A26193F9A8600874588 /* RegenmacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1A25193F9A8600874588 /* RegenmacherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		659F1A20193F9A8600874588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659F1A05193F9A8500874588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659F1A0C193F9A8500874588;
+			remoteInfo = Regenmacher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659F1A0D193F9A8500874588 /* Regenmacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regenmacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659F1A11193F9A8500874588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659F1A12193F9A8500874588 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		659F1A14193F9A8500874588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		659F1A16193F9A8500874588 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		659F1A19193F9A8600874588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		659F1A1F193F9A8600874588 /* RegenmacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegenmacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		659F1A24193F9A8600874588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659F1A25193F9A8600874588 /* RegenmacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegenmacherTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659F1A0A193F9A8500874588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659F1A1C193F9A8600874588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659F1A04193F9A8500874588 = {
+			isa = PBXGroup;
+			children = (
+				659F1A0F193F9A8500874588 /* Regenmacher */,
+				659F1A22193F9A8600874588 /* RegenmacherTests */,
+				659F1A0E193F9A8500874588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659F1A0E193F9A8500874588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A0D193F9A8500874588 /* Regenmacher.app */,
+				659F1A1F193F9A8600874588 /* RegenmacherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659F1A0F193F9A8500874588 /* Regenmacher */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A14193F9A8500874588 /* AppDelegate.swift */,
+				659F1A16193F9A8500874588 /* Images.xcassets */,
+				659F1A18193F9A8600874588 /* MainMenu.xib */,
+				659F1A10193F9A8500874588 /* Supporting Files */,
+			);
+			path = Regenmacher;
+			sourceTree = "<group>";
+		};
+		659F1A10193F9A8500874588 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A11193F9A8500874588 /* Info.plist */,
+				659F1A12193F9A8500874588 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		659F1A22193F9A8600874588 /* RegenmacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A25193F9A8600874588 /* RegenmacherTests.swift */,
+				659F1A23193F9A8600874588 /* Supporting Files */,
+			);
+			path = RegenmacherTests;
+			sourceTree = "<group>";
+		};
+		659F1A23193F9A8600874588 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A24193F9A8600874588 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659F1A0C193F9A8500874588 /* Regenmacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659F1A29193F9A8600874588 /* Build configuration list for PBXNativeTarget "Regenmacher" */;
+			buildPhases = (
+				659F1A09193F9A8500874588 /* Sources */,
+				659F1A0A193F9A8500874588 /* Frameworks */,
+				659F1A0B193F9A8500874588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Regenmacher;
+			productName = Regenmacher;
+			productReference = 659F1A0D193F9A8500874588 /* Regenmacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659F1A1E193F9A8600874588 /* RegenmacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659F1A2C193F9A8600874588 /* Build configuration list for PBXNativeTarget "RegenmacherTests" */;
+			buildPhases = (
+				659F1A1B193F9A8600874588 /* Sources */,
+				659F1A1C193F9A8600874588 /* Frameworks */,
+				659F1A1D193F9A8600874588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659F1A21193F9A8600874588 /* PBXTargetDependency */,
+			);
+			name = RegenmacherTests;
+			productName = RegenmacherTests;
+			productReference = 659F1A1F193F9A8600874588 /* RegenmacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659F1A05193F9A8500874588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Christian Schulze";
+				TargetAttributes = {
+					659F1A0C193F9A8500874588 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					659F1A1E193F9A8600874588 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 659F1A0C193F9A8500874588;
+					};
+				};
+			};
+			buildConfigurationList = 659F1A08193F9A8500874588 /* Build configuration list for PBXProject "Regenmacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659F1A04193F9A8500874588;
+			productRefGroup = 659F1A0E193F9A8500874588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659F1A0C193F9A8500874588 /* Regenmacher */,
+				659F1A1E193F9A8600874588 /* RegenmacherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659F1A0B193F9A8500874588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659F1A17193F9A8500874588 /* Images.xcassets in Resources */,
+				659F1A1A193F9A8600874588 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659F1A1D193F9A8600874588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659F1A09193F9A8500874588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659F1A15193F9A8500874588 /* AppDelegate.swift in Sources */,
+				659F1A13193F9A8500874588 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659F1A1B193F9A8600874588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659F1A26193F9A8600874588 /* RegenmacherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659F1A21193F9A8600874588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659F1A0C193F9A8500874588 /* Regenmacher */;
+			targetProxy = 659F1A20193F9A8600874588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		659F1A18193F9A8600874588 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659F1A19193F9A8600874588 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		659F1A27193F9A8600874588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659F1A28193F9A8600874588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		659F1A2A193F9A8600874588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Regenmacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		659F1A2B193F9A8600874588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Regenmacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		659F1A2D193F9A8600874588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Regenmacher.app/Contents/MacOS/Regenmacher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RegenmacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		659F1A2E193F9A8600874588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Regenmacher.app/Contents/MacOS/Regenmacher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RegenmacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659F1A08193F9A8500874588 /* Build configuration list for PBXProject "Regenmacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659F1A27193F9A8600874588 /* Debug */,
+				659F1A28193F9A8600874588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659F1A29193F9A8600874588 /* Build configuration list for PBXNativeTarget "Regenmacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659F1A2A193F9A8600874588 /* Debug */,
+				659F1A2B193F9A8600874588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		659F1A2C193F9A8600874588 /* Build configuration list for PBXNativeTarget "RegenmacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659F1A2D193F9A8600874588 /* Debug */,
+				659F1A2E193F9A8600874588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659F1A05193F9A8500874588 /* Project object */;
+}
