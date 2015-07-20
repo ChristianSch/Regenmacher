@@ -12,6 +12,7 @@
 		659F1A17193F9A8500874588 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659F1A16193F9A8500874588 /* Images.xcassets */; };
 		659F1A1A193F9A8600874588 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659F1A18193F9A8600874588 /* MainMenu.xib */; };
 		659F1A26193F9A8600874588 /* RegenmacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1A25193F9A8600874588 /* RegenmacherTests.swift */; };
+		659F1A31193F9AFE00874588 /* bt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 659F1A30193F9AFE00874588 /* bt.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		659F1A1F193F9A8600874588 /* RegenmacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegenmacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659F1A24193F9A8600874588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659F1A25193F9A8600874588 /* RegenmacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegenmacherTests.swift; sourceTree = "<group>"; };
+		659F1A30193F9AFE00874588 /* bt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bt.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		659F1A04193F9A8500874588 = {
 			isa = PBXGroup;
 			children = (
+				659F1A2F193F9AFE00874588 /* Resources */,
 				659F1A0F193F9A8500874588 /* Regenmacher */,
 				659F1A22193F9A8600874588 /* RegenmacherTests */,
 				659F1A0E193F9A8500874588 /* Products */,
@@ -107,6 +110,15 @@
 				659F1A24193F9A8600874588 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		659F1A2F193F9AFE00874588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				659F1A30193F9AFE00874588 /* bt.wav */,
+			);
+			name = Resources;
+			path = Regenmacher/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +203,7 @@
 			files = (
 				659F1A17193F9A8500874588 /* Images.xcassets in Resources */,
 				659F1A1A193F9A8600874588 /* MainMenu.xib in Resources */,
+				659F1A31193F9AFE00874588 /* bt.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
